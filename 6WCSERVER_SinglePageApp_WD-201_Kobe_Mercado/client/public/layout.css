@@ -1,0 +1,192 @@
+.Coffee{
+    color: black;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h1{
+    font-family: font-1;
+}
+
+@font-face{
+    font-family: font-1;
+    src: url(Shintaku\ Demo.otf);
+}
+
+/* NAVBAR STYLE */
+#logo{
+    width: 5em;
+    height: auto;
+    border-radius: 100%;
+}
+.navbar{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color:white;
+
+}
+.navbar a{
+    font-size: medium;
+    line-height: 70px;
+    color: rgb(177, 128, 54);
+    border: 1px solid white;
+    border-left: none;
+    border-right: none;
+}
+
+.navbar a#b:hover{
+    text-decoration: none;
+    border-color: rgb(177, 128, 54);
+    border-left: none;
+    border-right: none;
+    color: rgb(177, 128, 54);
+}
+
+
+
+/* HOME STYLE */
+#home{
+    height: 400px;
+}
+
+#home section#left{
+    float: left;
+    padding: 3em 5em 3em 5em;
+    text-align: justify;
+}
+#left h1{
+    font-family: font-1;
+    font-size: 6em;
+}
+#left h6{
+    text-align: justify;
+    font-size: large;
+}
+#home section#right{
+    float: right;
+}
+#home-image{
+    margin-right: 100px;
+    width: 350px;
+    border-radius: 100%;
+}
+
+#order-button{
+    color: rgb(155, 83, 50);
+    background-color: white;
+    border: 1px solid rgb(136, 87, 47);
+}
+
+/* MERCH STYLE */
+#merch{ 
+    
+    text-align: center;
+    padding: 10.5em 5em 3em 5em;
+    margin-bottom: 5em;
+
+}
+#merch h1{
+    font-family: font-1;
+}
+
+#merch section{
+    text-align: center;
+}
+table{
+    margin: auto;
+}
+#merch table img{
+    width: 350px;
+    height: 300px;
+    margin: auto;
+}
+#name{
+    border: 1px solid  rgb(107, 66, 6);
+    border-radius: 50px;
+    padding: .5em 1.5em .5em 1.5em;
+    font-size: large;
+    color: rgb(107, 66, 6);
+    font-weight: 400;
+}
+#name:hover{
+    border: 1px solid  rgb(107, 66, 6);
+    border-radius: 50px;
+    padding: .5em 1.5em .5em 1.5em;
+    font-size: large;
+    color: rgb(224, 214, 198);
+    font-weight: 400;
+    background-color: rgb(107, 66, 6);
+}
+
+/* ABOUT STYLE */
+#about{
+    height: 500px;
+    padding-top: 100px;
+}
+#about-text{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 500px;
+    float: left;
+    border-left: 10px solid rgb(95, 63, 15);
+    border-bottom: 10px solid rgb(95, 63, 15);
+    padding:20px;
+    margin-top:5em;
+    margin-left: 9em;
+    text-justify: newspaper;
+    background-color: white;
+
+}
+#img1{
+    position: absolute;
+    margin-left: 400px;
+    z-index: -1;
+    border-top: 10px solid rgb(58, 38, 7);
+    border-right: 10px solid rgb(58, 38, 7);
+}
+#img2{
+    border: 9px solid white;
+    border-radius: 20px;
+    position: absolute;
+    left: 900px;
+    top: 1450px;
+
+}
+#img2 img{
+    width: 350px;
+    border-radius: 10px;
+}
+
+/* SUGGESTIONS STYLE */
+#contact{
+        
+    margin-top: 350px;
+    height: 500px;
+}
+
+#contact img{
+    position: absolute;
+    padding-top: 15em;
+    border: 3px solid rgb(58, 38, 7);
+    left: 250px;
+}
+
+#form{
+
+    float: right;
+    margin-right: 250px;
+    margin-top: 50px;
+}
+#input{
+    width:300px;
+}
+#info{
+    float: left;
+    margin-left: 335px;
+    margin-top: 50px;
+    font-size: medium;
+    font-weight: 300;
+}
+/* FOOTER STYLE */
+#footer{
+    height: 100px;
+    padding: 10px;
+
+}
